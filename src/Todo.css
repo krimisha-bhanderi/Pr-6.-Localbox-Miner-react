@@ -1,0 +1,77 @@
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .todo-heading {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .add-form-container {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-tasks-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .delete-btn,
+  .edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+  }
+  
+  .delete-btn:hover,
+  .edit-btn:hover {
+    color: #007bff;
+  }
+  
